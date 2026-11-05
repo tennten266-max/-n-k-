@@ -1,5 +1,3 @@
-// アルゴリズム3.3
-// nけたの2進数の全列挙（再帰呼び出しを使う方法）
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -18,7 +16,6 @@ int main(void) {
   return(0);
 }
 
-// 再帰呼び出しを行う関数
 // d>nならば，配列a[1],...,a[n]の値を出力
 // d≦nならば，a[d]以降に0or1を保存
 int rec(int d, int n, int k) {
